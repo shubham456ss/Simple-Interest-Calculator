@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding: 0;
+    background: silver;
+}
+h2{
+    padding: 0 0 20px 0;
+    text-align:center;
+    font-size:40px;
+    color:grey;    
+}
+.sc {
+    position:absolute;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    left: 50%;
+    top:50%;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.sc form{ 
+    box-sizing: border-box;
+}   
+
+.label{
+    display: inline-block;
+    left: 50px;
+    width: 120px;
+    margin: auto 0 10px 100px;
+}
+#slider,#year,#calci{
+    cursor:pointer;
+}
+#paragraph{
+    display: none;
+    width: 350px;
+    text-align: left;
+    margin: 10px 0 10px 100px;
+    
+}
+.para{
+    display:block;
+    width: 100%;
+}
+.sp{
+    background-color: yellow;
+}
+footer{
+    padding: 10px;
+    bottom: auto;
+}

@@ -1,0 +1,62 @@
+<!Doctype html>
+<html lang="en" >
+<head>
+  <meta  charset="UTF-8" >
+  <meta name=label content="width=device-width" , initialscale="1.0" >
+  <title>Web App - Simple Interest Calculator</title>
+  <link rel="stylesheet" href="simple-calculator.css">
+  <script src="simple-calculator.js"></script>	
+ </head> 
+<body>
+      
+        <div class="sc">
+            
+            <h2>Simple Interest Calculator</h2>
+
+            <form name="f1">                   
+
+            <label class="label" >Amount</label>
+            <input class="input" type="number" id="amt"  name="amount">
+
+            <br><br>
+
+            <label class="label">Interest Rate</label>
+            <input class="input" id="slider" oninput="x.value=parseFloat(slider.value)" type="range" name="interest" value="1" min="1" max="20" >
+
+            <output name="x" for="slider "></output>%
+            <br><br>
+            
+            <label class="label" for="yr">No of Years</label>
+                <select name="yr" id="year">
+                    
+                    <option value=1>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value=7>7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+
+                </select>
+                <br><br>
+
+            <button id="calci" class="label" >Compute Interest</button>
+
+            <div id="paragraph">
+                <div class="para">If you deposit <span class="sp"></span></div>
+                <div class="para">at an interest rate of <span class="sp"> </span>%</div>
+                <div class="para">You will recieve an amount of <span class="sp"></span> </div>
+                <div class="para">in the year <span class="sp"></span></div>
+            </div>
+
+            <footer>© Shubham Yadav</footer>
+            </form>
+        </div>
+
+</body>
+</html>
